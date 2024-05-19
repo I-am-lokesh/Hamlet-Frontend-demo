@@ -52,6 +52,10 @@ body{
   height: 100vh;
   background-color: #000000;
   font-family:  "RF Dewi", sans-serif;
+  
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 h1 {
