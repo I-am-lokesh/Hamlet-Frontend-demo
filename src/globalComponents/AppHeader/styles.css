@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "RFDewiExtended";
+    src: local("RFDewiExtended"),
+        url("../../fonts/RFDewiExtended-Black.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.appHeader {
+     color: white;
+    background-color: transparent;
+     display: flex;
+     width: 100%;
+     height : 100px;
+     justify-content: space-between;
+     align-items: center;
+     font-family: "RFDewiExtended", sans-serif;
+     font-size: large;
+}
+
+.logo-class {
+    display: flex;
+    align-items: center;    
+}

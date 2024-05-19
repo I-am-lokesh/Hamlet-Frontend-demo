@@ -1,0 +1,89 @@
+.root {
+    margin : 0 ; 
+    padding : 0 ;
+    min-width: 100%;
+    min-height : 100% ; 
+}
+
+.landing {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: center; */    
+    min-width: 100%;
+    min-height: 500px;   
+    background-color: transparent;
+    color: azure;
+}
+.squares {
+    position: fixed;
+    top: 10%;
+    left: 30%;
+    width : 30%;
+    height: 30%;
+    z-index: -1;
+}
+.squares-vertical{
+    position: fixed;
+        bottom: 10%;
+        right: 31%;
+        width: 30%;
+        height: 30%;
+        z-index: -1;
+}
+.landing__content {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: self-start;
+    width: 50%;
+    height: 100%;
+}
+.landing__image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing_pic{
+    width: 70%;
+    height: 70%;
+    border-radius : 15%;
+}
+.landing__title{
+    line-height: 10px;
+    font-size: 3.8rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+    background-color: transparent;
+    color: azure;
+}
+.landingIcons{
+    object-fit: fill;
+    width: 20px;
+    height: 20px;
+}
+.landingIconButton{
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+}
+.IconConatiner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 5%;
+    width: 10%;
+    height: 100%;
+}
