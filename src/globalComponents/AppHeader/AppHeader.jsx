@@ -10,11 +10,11 @@ const AppHeader = (props) => {
         <img src={logo} alt="" />
         Hamlet{" "}
       </div>
-      <AppButton
+      {/* <AppButton
         text={"Create Wallet"}
         img={"wallet"}
         onClick={props.onButtonClick && props.onButtonClick}
-      />
+      /> */}
     </div>
   );
 };

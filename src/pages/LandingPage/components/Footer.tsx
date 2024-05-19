@@ -1,7 +1,5 @@
-import React, { Fragment } from 'react'
-import x from '../x.svg'
-import telegram from '../telegram.svg'
-import discord from '../discord.svg'
+import { Xicon , TelegramIcon, DiscordIcon} from '../../../globalComponents/SVGcomponents/SVGicons';
+
 const Footer = (props : any) => {
     const handleClickOpen = ()=> {
         props.onClick && props.onClick()
@@ -9,10 +7,9 @@ const Footer = (props : any) => {
   return (
     <div className="footer"> 
       <div  className= "IconConatiner">
-        <button onClick={handleClickOpen} className='landingIconButton'> <img src={x} className='landingIcons' alt="" /> </button>
-        <button onClick={handleClickOpen} className='landingIconButton'> <img src={telegram} className='landingIcons' alt="" /> </button>
-        <button onClick={handleClickOpen} className='landingIconButton'> <img src={discord} className='landingIcons' alt="" /> </button>
-
+        <div onClick={handleClickOpen}className='landingIconButton' > <Xicon /> </div>
+        <div onClick={handleClickOpen} className='landingIconButton'> <TelegramIcon /> </div>
+        <div onClick={handleClickOpen} className='landingIconButton'> <DiscordIcon /></div>
       </div> 
      </div>
   )

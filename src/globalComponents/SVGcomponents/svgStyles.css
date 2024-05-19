@@ -1,0 +1,9 @@
+.svgIcons{
+  /* fill: white; */
+  width: 20px;
+  height: 20px;
+}
+.svgIcons path:hover {
+    fill: white;
+    opacity: 1;
+}

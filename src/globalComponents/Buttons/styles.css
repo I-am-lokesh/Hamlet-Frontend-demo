@@ -1,6 +1,7 @@
 
 
 .AppButton {
+    font-family: "RF Dewi Extended SemiBold", sans-serif;
     background-color: #222222;
     border: none;
     color: #E8EAED;
@@ -10,12 +11,14 @@
     justify-content: center;
     align-items: center;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 10px 10px;
     cursor: pointer;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 5px 20px;
     transition-duration: 0.4s;
-    width : 300px; 
+    width : 250px;
+    height : 50px; 
+
 }
 .icon{
      padding: 10px;

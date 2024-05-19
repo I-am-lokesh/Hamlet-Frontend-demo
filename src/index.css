@@ -1,11 +1,47 @@
-
 @font-face {
-  font-family: "RFDewi";
-  src: local("RFDewi"),  
-  url("./fonts/RFDewi-Black.ttf") format("truetype");
-  font-weight: normal;  
-  font-style: normal; 
+  font-family: 'RF Dewi';
+  src: url('./fonts/RFDewi-Regular.eot');
+  src: local('RF Dewi Regular'), local('RFDewi-Regular'),
+    url('RFDewi-Regular.eot?#iefix') format('embedded-opentype'),
+    url('RFDewi-Regular.woff2') format('woff2'),
+    url('RFDewi-Regular.woff') format('woff'),
+    url('RFDewi-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+@font-face {
+  font-family: 'RF Dewi Light';
+  src: url('./fonts/RFDewi-Light.eot');
+  src: local('RF Dewi Light'), local('RFDewi-Light')
+    url('./fonts/RFDewi-Light.eot') format('embedded-opentype'),
+    url('./fonts/RFDewi-Light.woff2') format('woff2'),
+    url('./fonts/RFDewi-Light.woff') format('woff'),
+    url('./fonts/RFDewi-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RF Dewi Thin';
+  src: url('./fonts/RFDewi-Thin.eot');
+  src: local('RF Dewi Thin'), local('RFDewi-Light') url('./fonts/RFDewi-Thin.eot') format('embedded-opentype'),
+    url('./fonts/RFDewi-Thin.woff2') format('woff2'),
+    url('./fonts/RFDewi-Thin.woff') format('woff'),
+    url('./fonts/RFDewi-Thin.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RF Dewi Extended SemiBold';
+  src: url('./fonts/RFDewi-ExtendedSemiBold.eot');
+  src: local('RF Dewi Extended SemiBold'), local('RFDewi-ExtendedSemiBold'),
+    url('./fonts/RFDewi-ExtendedSemiBold.eot') format('embedded-opentype'),
+    url('./fonts/RFDewi-ExtendedSemiBold.woff2') format('woff2'),
+    url('./fonts/RFDewi-ExtendedSemiBold.woff') format('woff'),
+    url('./fonts/RFDewi-ExtendedSemiBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
 
 body{
   margin-left: 5%;
@@ -15,7 +51,7 @@ body{
   /* width: 100vw; */
   height: 100vh;
   background-color: #000000;
-  font-family:  "RFDewi", sans-serif;
+  font-family:  "RF Dewi", sans-serif;
 }
 
 h1 {
@@ -23,34 +59,3 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #000000;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}

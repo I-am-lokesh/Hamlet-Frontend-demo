@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import '../styles.css'
 import AppHeader from '../../../globalComponents/AppHeader/AppHeader'
 import squares from "../squares.svg"
@@ -21,8 +21,8 @@ const Index = () => {
       <div className='landing'> 
         <div className='landing__content'>
           <h1 className='landing__title'> <p><span style={{color : "#CBDC49"}}>Community</span> Powered </p> Fair Token Launches</h1>
-          <p className='landing__description'>Create your hamlet, raise on-chain funds, and create LP for your meme coins and project tokens</p>
-          <div style={{width : "100%", display : "flex", justifyContent : "space-around",paddingTop: "50px"}}> 
+          <p className='landing__description'>Form a hamlet, raise on-chain funds, and create LP for your memecoin or project token</p>
+          <div className="button_container"> 
             <AppButton 
               text={"Explore Hamlets"}
               styles={{
@@ -45,6 +45,7 @@ const Index = () => {
         </div>
         <div className='landing__image'>
            <img src={Hamlet} className="landing_pic" alt="" />
+           <div className='image_text'> <p>hamlet. noun. ham·​let ˈham-lət. : a small mountain village</p> </div>
         </div>
       </div>
        <img src={squareVertical} className='squares-vertical' alt="" />
